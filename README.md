@@ -9,25 +9,29 @@ Install either or both depending on your workflow.
 
 ## Installation
 
+All `/plugin` commands below are run **inside Claude Code's chat window**, not in your terminal.
+
 ### From GitHub (recommended)
 
-Add the marketplace, then install the plugins you want:
+Add the marketplace:
 
-```bash
-# Add the marketplace
+```
 /plugin marketplace add justintime109/personal-knowledge-management-system-skills
+```
 
-# Install both plugins
+Then install the plugins you want:
+
+```
 /plugin install para-notes
+```
+
+```
 /plugin install gtd-omnifocus
-
-# Or install just one
-/plugin install para-notes
 ```
 
 ### From a local clone
 
-If you've cloned the repo locally:
+If you've cloned the repo locally, start Claude Code with the plugin directories:
 
 ```bash
 claude --plugin-dir ./para-notes --plugin-dir ./gtd-omnifocus
