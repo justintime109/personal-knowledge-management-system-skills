@@ -1,0 +1,19 @@
+{
+  "name": "personal-knowledge-management",
+  "description": "Claude Code plugins for personal knowledge management — PARA notes and GTD with OmniFocus",
+  "owner": {
+    "name": "Justin Ramos"
+  },
+  "plugins": [
+    {
+      "name": "para-notes",
+      "source": "./para-notes",
+      "description": "PARA note management for Obsidian vaults — capture, organize, review, and retrieve notes using the PARA method"
+    },
+    {
+      "name": "gtd-omnifocus",
+      "source": "./gtd-omnifocus",
+      "description": "GTD task management for OmniFocus — capture, process inbox, plan projects, and weekly reviews via AppleScript"
+    }
+  ]
+}
